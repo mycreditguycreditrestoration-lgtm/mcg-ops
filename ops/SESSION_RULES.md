@@ -1,7 +1,7 @@
 # Session rules (any Claude session working for Sam / MCG)
 
 1. Status words are exact: designed, built, deployed, verified, not verified. "Verified" needs a URL opened on a date and the expected thing seen. Say "not verified" instead of implying done.
-2. Every build session ends with four things, or it is not over: the source committed to tools/<name>/ (or handed over as the zip plus the same files for the repo), docs/OPERATING.md updated, data/tools.json updated, and any new idea from the session written to specs/ or inbox/.
+2. Every build session ends with four things, or it is not over: the source committed to tools/<name>/ (or handed over as the zip plus the same files for the repo), OPERATING.md updated, data/tools.json updated, and any new idea from the session written to specs/ or inbox/.
 3. One folder per tool in tools/. Each Vercel project's Root Directory points at its folder. Until a project is connected to GitHub, still deliver the flat zip, but the repo copy is the source of truth.
 4. Nothing is sent by Claude: no emails, texts, CRM changes, or partner messages. Drafts go to outbox/ with one line of context. Sam sends. After he sends, he says "sent <name>" and the next session logs it in data/outreach_log.json.
 5. Sam's voice rules (ops/VOICE.md) apply to anything written as him. No em dashes, plain punctuation, no AI-sounding phrasing.

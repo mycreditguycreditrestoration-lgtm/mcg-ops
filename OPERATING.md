@@ -11,7 +11,7 @@ Status words mean exactly this:
 - not verified: everything else, no matter how done it felt
 
 ## This week (as of Mon Oct 12, 2026)
-- Tue Oct 13, 2pm ET: 20/20 Vision pod session [verify date with Nicole Heinz-Trefrey]. Plan was to review the finish-line checklist with numbers. Remaining modules: return conversion, live pipeline review. Pod ends Oct 22. Nobody attended the combined 5+6 session, so the digital syllabus was emailed instead.
+- Tue Oct 13, 2pm ET: 20/20 Vision pod, Session 6 "The Return" (return conversion) [verify date with Nicole Heinz-Trefrey]. Open by reviewing the finish-line checklist with numbers. Weeks 4 and 5 were missed (low attendance, then a cancelled week, then nobody showed); the catch-up email and digital syllabus went out Oct 12 instead. Remaining after this: live pipeline review. Pod ends Oct 22.
 - Vetted VA Credit Readiness: waiting on their logo, brand colors, and sign-off. Own Vercel project, separate from plain Credit Readiness. Must carry "Not affiliated with the Dept. of Veterans Affairs or any government agency."
 - Consumer site (MCG-C3): Ashley to redeploy the merged build (front end plus the v44 /api folder: analyze, track, contract, lead) in place and copy env vars (AI key, TRACK_WEBHOOK_URL, Zoho set, contract templates) from the lender project. [verify: done or not]
 - CreditDIY: what is live on creditdiy.com is at most the July 24 generation. Stamped Build 2026-09-10.1 (partner and demo) still needs to go up. Footer stamp is the check.
