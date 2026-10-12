@@ -1,0 +1,8 @@
+{
+  "_how": "Written every morning by the Zoho function in zoho/daily_partner_export.deluge. This sample is here so the first morning run has a shape to work with. It is replaced by the real export.",
+  "generated_at": "2026-10-12 05:00:00",
+  "partners": [
+    {"id": "sample-1", "name": "Jane Example", "company": "Example Mortgage", "email": "", "phone": "", "type": "Loan Officer", "grade": "A", "last_referral_date": "2026-08-20", "last_value_date": "2026-08-25", "files_last_30": 0, "owner": "Sam Parker"},
+    {"id": "sample-2", "name": "Tom Sample", "company": "Sample Realty", "email": "", "phone": "", "type": "Realtor", "grade": "B", "last_referral_date": "2026-09-30", "last_value_date": "2026-10-03", "files_last_30": 2, "owner": "Sam Parker"}
+  ]
+}

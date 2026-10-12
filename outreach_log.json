@@ -1,0 +1,4 @@
+{
+  "_how": "One entry per message Sam actually sent. Claude adds entries when Sam says 'sent <name>'. A partner with an entry in the last 21 days is not flagged again.",
+  "entries": []
+}

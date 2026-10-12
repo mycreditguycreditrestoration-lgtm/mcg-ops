@@ -1,0 +1,25 @@
+name: tool-uptime
+# Pings every tool in data/tools.json every hour and records up/down in data/uptime.json.
+# GitHub pauses scheduled workflows after 60 days with no commits to the repo; the morning run's commits keep it alive.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ping tools
+        id: ping
+        run: python3 scripts/uptime_check.py
+      - name: Save status
+        if: steps.ping.outputs.changed == 'true'
+        run: |
+          git config user.name "mcg-ops-bot"
+          git config user.email "mcg-ops-bot@users.noreply.github.com"
+          git add data/uptime.json
+          git commit -m "uptime: $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git push
