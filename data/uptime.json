@@ -1,4 +1,125 @@
 {
-  "checked_at": null,
-  "tools": []
+  "checked_at": "2026-10-12T17:07:58Z",
+  "tools": [
+    {
+      "name": "MCG Pre-Flight, Automated Credit Review (LO tool v44)",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Consumer site (MCG-C3)",
+      "url": "https://mcg-credit-review-consumer-c1.vercel.app/",
+      "status": "up",
+      "http": 200,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "LO link generator page",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Credit Readiness (military, CR-v5)",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Vetted VA Credit Readiness",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "CreditDIY (partner build)",
+      "url": "https://creditdiy.com",
+      "status": "down",
+      "http": 403,
+      "note": "HTTP 403",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "CreditDIY (demo build)",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "LO Answer Desk",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "MCG Coach Lookup",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Budget & Goal Builder",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Autonomous Dispute Engine",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Sales call checklist",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Coach performance scoreboard",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "One-on-one check-in app",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "Pod tools (20/20 Vision)",
+      "url": "",
+      "status": "no url",
+      "http": null,
+      "note": "",
+      "since": "2026-10-12T17:07:58Z"
+    }
+  ]
 }
