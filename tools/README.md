@@ -19,3 +19,5 @@ Vercel > Add New > Project > Import `mcg-ops` > Root Directory = the folder > De
 
 ## Env vars
 Env vars (AI key, TRACK_WEBHOOK_URL, Zoho settings, contract templates) stay in Vercel, never in this repo. The operating doc lists which project needs which.
+
+Vercel team: my-credit-guy. Each project has one stable production address, <project-name>.vercel.app, and that is what goes in data/tools.json. Addresses with a hash in the middle (project-abc123xyz-my-credit-guy.vercel.app) are single deployments; they change every deploy and are not monitored.
