@@ -2,7 +2,7 @@
 
 One folder per live tool. The folder holds exactly what you would have zipped: `index.html` at the top, plus `/api` if the tool has serverless functions, plus any assets.
 
-Folder names (match data/tools.json): lo-tool, consumer-site, lo-link-generator, credit-readiness, creditdiy, creditdiy-demo, lo-answer-desk, coach-lookup, budget-goal-builder, dispute-engine, sales-call-checklist, coach-scoreboard, one-on-one, pod-tools.
+Folder names (match data/tools.json): lo-tool, consumer-site, lo-link-generator, credit-readiness, creditdiy, creditdiy-demo, lo-answer-desk, coach-lookup, budget-goal-builder, dispute-engine, sales-call-checklist, coach-scoreboard, one-on-one, pod-tools, creditwhat.
 
 ## Getting the current builds in (one time)
 Unzip each flat zip on your computer and drag its contents into the matching folder on GitHub (open the folder, "Add file" > "Upload files"). Commit. If a folder does not exist yet, create it by uploading into a path: on the upload page type `tools/lo-tool/` ahead of the filename.

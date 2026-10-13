@@ -17,6 +17,6 @@
     {"name": "Coach performance scoreboard", "url": "", "expect": "", "vercel_project": "", "folder": "tools/coach-scoreboard"},
     {"name": "One-on-one check-in app", "url": "", "expect": "", "vercel_project": "", "folder": "tools/one-on-one"},
     {"name": "Pod tools (20/20 Vision)", "url": "", "expect": "", "vercel_project": "", "folder": "tools/pod-tools"},
-    {"name": "creditwhat.com (label pending: which tool is this?)", "url": "https://www.creditwhat.com/", "expect": "", "vercel_project": "", "folder": ""}
+    {"name": "CreditWhat.com (LO-facing hub: simulator and knowledge base)", "url": "https://www.creditwhat.com/", "expect": "", "vercel_project": "", "folder": "tools/creditwhat"}
   ]
 }

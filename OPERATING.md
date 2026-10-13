@@ -34,6 +34,7 @@ Status words mean exactly this:
 | Coach performance scoreboard (for Tricia) | Weighted Google vs internal review scoring | URL: add | [verify] | |
 | One-on-one employee check-in app | Same flat-zip workflow | URL: add | [verify] | |
 | Pod web tools | Session 1 decline worksheet; Decline Conversation Playbook (with Coach Lookup script library); Old Ruler, New Ruler comparison | URL: add | [verify] | pod ends Oct 22 |
+| CreditWhat.com | Brand hub Sam is building for credit tools and credit knowledge, "credit everything"; marketed to LOs now, who go there to run the simulator and use the knowledge base | https://www.creditwhat.com/ | live | decide how to monetize (sponsorships, affiliate links, or similar) |
 | Internal MCG version of the LO tool | Fork of the LO build for MCG staff | none | designed, not started | define scope |
 
 ## Referral partner program
