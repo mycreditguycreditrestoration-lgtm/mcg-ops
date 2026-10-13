@@ -1,5 +1,6 @@
 {
-  "checked_at": "2026-10-13T15:11:03Z",
+  "checked_at": "2026-10-13T17:08:47Z",
+  "alerted_at": "2026-10-13T17:08:47Z",
   "tools": [
     {
       "name": "MCG Pre-Flight, Automated Credit Review (LO tool v44)",
@@ -34,20 +35,20 @@
       "since": "2026-10-13T15:11:03Z"
     },
     {
-      "name": "Credit Readiness (military, CR-v6)",
+      "name": "Credit Readiness (military, CR-v8, public MCG site)",
+      "url": "https://site-military-credit-readiness-crv8.vercel.app/",
+      "status": "up",
+      "http": 200,
+      "note": "",
+      "since": "2026-10-13T17:08:47Z"
+    },
+    {
+      "name": "Vetted VA Credit Readiness (crv6 project)",
       "url": "https://site-military-credit-readiness-crv6.vercel.app/",
       "status": "up",
       "http": 200,
       "note": "",
-      "since": "2026-10-13T15:11:03Z"
-    },
-    {
-      "name": "Vetted VA Credit Readiness",
-      "url": "",
-      "status": "no url",
-      "http": null,
-      "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T17:08:47Z"
     },
     {
       "name": "CreditDIY (partner build)",
