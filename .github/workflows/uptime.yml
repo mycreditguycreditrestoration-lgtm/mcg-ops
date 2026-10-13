@@ -23,3 +23,9 @@ jobs:
           git add data/uptime.json
           git commit -m "uptime: $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
           git push
+      - name: Alert (fails on purpose so GitHub emails you; first hour down, then once a day)
+        if: steps.ping.outputs.alert == 'true'
+        run: |
+          echo "::error title=A tool is down::${{ steps.ping.outputs.problems }}"
+          echo "DOWN: ${{ steps.ping.outputs.problems }}"
+          exit 1

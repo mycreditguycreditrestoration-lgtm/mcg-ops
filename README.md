@@ -39,4 +39,4 @@ Open `data/tools.json` on GitHub, click the pencil, paste each tool's live URL. 
 - Idea at 11pm: drop a file in `inbox/`. The morning run files it and turns build instructions into `specs/`.
 - Build something with Claude: the session ends with the source in `tools/<name>/`, `OPERATING.md` updated, `tools.json` updated. Not optional.
 - A draft in `outbox/` you like: send it from Zoho or your phone, then tell Claude "sent <name>" so it gets logged.
-- Something is down: the brief says so, with the time it went down.
+- Something is down: GitHub emails you within the hour (the checker fails its run on purpose), then once a day while it stays down. The morning brief says so too, with the time it went down. The email comes from GitHub to the address on your GitHub account; the subject names tool-uptime.

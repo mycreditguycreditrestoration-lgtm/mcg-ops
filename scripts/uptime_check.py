@@ -55,14 +55,34 @@ if prev.get("checked_at"):
     except Exception:
         heartbeat = True
 
-write = changed or heartbeat
-if write:
-    json.dump({"checked_at": NOW_S, "tools": results}, open(OUT, "w"), indent=2)
+# Alerting: the workflow fails (so GitHub emails the repo owner) the first hour a tool
+# goes down, then once a day while it stays down. Never more often than that.
+bad = [r for r in results if r["status"] in ("down", "wrong content")]
+new_bad = [r for r in bad if prev_tools.get(r["name"], {}).get("status") != r["status"]]
+remind = False
+if bad:
+    prev_alert = prev.get("alerted_at")
+    if not prev_alert:
+        remind = True
+    else:
+        try:
+            last_alert = datetime.datetime.strptime(prev_alert, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+            remind = (NOW - last_alert) > datetime.timedelta(hours=23)
+        except Exception:
+            remind = True
+alert = bool(new_bad) or remind
+alerted_at = NOW_S if alert else prev.get("alerted_at")
 
+write = changed or heartbeat or alert
+if write:
+    json.dump({"checked_at": NOW_S, "alerted_at": alerted_at, "tools": results}, open(OUT, "w"), indent=2)
+
+problems = "; ".join("%s: %s %s" % (r["name"], r["status"], r["note"] or ("HTTP %s" % r["http"] if r["http"] else "")) for r in bad)
 with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a") as f:
     f.write("changed=%s\n" % ("true" if write else "false"))
+    f.write("alert=%s\n" % ("true" if alert else "false"))
+    f.write("problems=%s\n" % problems.replace("\n", " ")[:900])
 
-bad = [r for r in results if r["status"] in ("down", "wrong content")]
-print("checked %d tools, %d problems, file %s" % (len(results), len(bad), "updated" if write else "unchanged"))
+print("checked %d tools, %d problems, file %s, alert %s" % (len(results), len(bad), "updated" if write else "unchanged", "yes" if alert else "no"))
 for r in bad:
     print(" - %s: %s %s (since %s)" % (r["name"], r["status"], r["note"], r["since"]))
