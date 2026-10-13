@@ -11,7 +11,7 @@ Status words mean exactly this:
 - not verified: everything else, no matter how done it felt
 
 ## This week
-- creditdiy.com is down (403, confirmed Oct 13). Plan: finish the CreditDIY build, deploy fresh, repoint the domain. Needs the Build 2026-09-10.1 zips and Rev 2026-09-10.1 library uploaded to tools/creditdiy and tools/creditdiy-demo in this repo. (as of Mon Oct 12, 2026)
+- creditdiy.com is down (403, confirmed Oct 13). Plan: finish the CreditDIY build, deploy fresh, repoint the domain. Needs the Build 2026-09-10.1 zips and Rev 2026-09-10.1 library uploaded to tools/creditdiy and tools/creditdiy-demo in this repo. The one file found so far (uploaded Oct 13 as CreditDIY_PARTNER.html) is an unstamped demo-generation front end, parked at tools/creditdiy-demo with a NOTE; not the partner build. (as of Mon Oct 12, 2026)
 - Tue Oct 13, 2pm ET: 20/20 Vision pod, Session 6 "The Return" (return conversion) [verify date with Nicole Heinz-Trefrey]. Open by reviewing the finish-line checklist with numbers. Weeks 4 and 5 were missed (low attendance, then a cancelled week, then nobody showed); the catch-up email and digital syllabus went out Oct 12 instead. Remaining after this: live pipeline review. Pod ends Oct 22.
 - Vetted VA Credit Readiness: waiting on their logo, brand colors, and sign-off. Own Vercel project, separate from plain Credit Readiness. Must carry "Not affiliated with the Dept. of Veterans Affairs or any government agency."
 - Consumer site (MCG-C3): Ashley to redeploy the merged build (front end plus the v44 /api folder: analyze, track, contract, lead) in place and copy env vars (AI key, TRACK_WEBHOOK_URL, Zoho set, contract templates) from the lender project. [verify: done or not]
