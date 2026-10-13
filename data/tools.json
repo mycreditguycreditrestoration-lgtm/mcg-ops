@@ -5,7 +5,7 @@
     {"name": "Consumer site (MCG-C3, with API)", "url": "https://mcg-c3-consumer-with-api.vercel.app/", "expect": "", "vercel_project": "mcg-c3-consumer-with-api", "folder": "tools/consumer-site"},
     {"name": "Consumer site (MCG-C3, older c1 deployment; partner-page links point here)", "url": "https://mcg-credit-review-consumer-c1.vercel.app/", "expect": "", "vercel_project": "mcg-credit-review-consumer-c1", "folder": "tools/consumer-site"},
     {"name": "LO link generator page", "url": "https://mcg-lo-partner-page-v2-flat-2.vercel.app/", "expect": "", "vercel_project": "mcg-lo-partner-page-v2-flat-2", "folder": "tools/lo-link-generator"},
-    {"name": "Credit Readiness (military, CR-v8: fix for the resource/annex buttons not populating) [verify: public MCG address, or replaces crv6?]", "url": "https://site-military-credit-readiness-crv8.vercel.app/", "expect": "", "vercel_project": "site-military-credit-readiness-crv8", "folder": "tools/credit-readiness"},
+    {"name": "Credit Readiness (military, CR-v8, public MCG site)", "url": "https://site-military-credit-readiness-crv8.vercel.app/", "expect": "", "vercel_project": "site-military-credit-readiness-crv8", "folder": "tools/credit-readiness"},
     {"name": "Vetted VA Credit Readiness (crv6 project)", "url": "https://site-military-credit-readiness-crv6.vercel.app/", "expect": "", "vercel_project": "site-military-credit-readiness-crv6", "folder": "tools/credit-readiness"},
     {"name": "CreditDIY (partner build)", "url": "https://creditdiy.com", "expect": "", "vercel_project": "", "folder": "tools/creditdiy"},
     {"name": "CreditDIY (demo build)", "url": "", "expect": "DEMO", "vercel_project": "", "folder": "tools/creditdiy-demo"},
