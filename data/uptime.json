@@ -1,37 +1,45 @@
 {
-  "checked_at": "2026-10-12T17:07:58Z",
+  "checked_at": "2026-10-13T15:11:03Z",
   "tools": [
     {
       "name": "MCG Pre-Flight, Automated Credit Review (LO tool v44)",
-      "url": "",
-      "status": "no url",
-      "http": null,
+      "url": "https://mcg-auto-credit-review.vercel.app/",
+      "status": "up",
+      "http": 200,
       "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T15:11:03Z"
     },
     {
-      "name": "Consumer site (MCG-C3)",
+      "name": "Consumer site (MCG-C3, with API)",
+      "url": "https://mcg-c3-consumer-with-api.vercel.app/",
+      "status": "up",
+      "http": 200,
+      "note": "",
+      "since": "2026-10-13T15:11:03Z"
+    },
+    {
+      "name": "Consumer site (MCG-C3, older c1 deployment; partner-page links point here)",
       "url": "https://mcg-credit-review-consumer-c1.vercel.app/",
       "status": "up",
       "http": 200,
       "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T15:11:03Z"
     },
     {
       "name": "LO link generator page",
-      "url": "",
-      "status": "no url",
-      "http": null,
+      "url": "https://mcg-lo-partner-page-v2-flat-2.vercel.app/",
+      "status": "up",
+      "http": 200,
       "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T15:11:03Z"
     },
     {
-      "name": "Credit Readiness (military, CR-v5)",
-      "url": "",
-      "status": "no url",
-      "http": null,
+      "name": "Credit Readiness (military, CR-v6)",
+      "url": "https://site-military-credit-readiness-crv6.vercel.app/",
+      "status": "up",
+      "http": 200,
       "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T15:11:03Z"
     },
     {
       "name": "Vetted VA Credit Readiness",
@@ -59,11 +67,11 @@
     },
     {
       "name": "LO Answer Desk",
-      "url": "",
-      "status": "no url",
-      "http": null,
+      "url": "https://mcg-lo-answer-desk.vercel.app/",
+      "status": "up",
+      "http": 200,
       "note": "",
-      "since": "2026-10-12T17:07:58Z"
+      "since": "2026-10-13T15:11:03Z"
     },
     {
       "name": "MCG Coach Lookup",
@@ -120,6 +128,14 @@
       "http": null,
       "note": "",
       "since": "2026-10-12T17:07:58Z"
+    },
+    {
+      "name": "CreditWhat.com (LO-facing hub: simulator and knowledge base)",
+      "url": "https://www.creditwhat.com/",
+      "status": "up",
+      "http": 200,
+      "note": "",
+      "since": "2026-10-13T15:11:03Z"
     }
   ]
 }
