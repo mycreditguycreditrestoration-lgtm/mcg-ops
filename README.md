@@ -22,8 +22,8 @@ The repo is `github.com/mycreditguycreditrestoration-lgtm/mcg-ops` (private) and
 One thing left: Actions tab > tool-uptime > Run workflow. A minute later `data/uptime.json` is real.
 If that run fails on its commit step: Settings > Actions > General > Workflow permissions > "Read and write permissions" > Save, then run it again.
 
-### 2. Tool URLs (5 min)
-Open `data/tools.json` on GitHub, click the pencil, paste each tool's live URL. Leave `""` for anything not live. Commit. Run the uptime workflow again.
+### 2. Tool URLs (done Oct 13, 2026)
+Nine live addresses are in `data/tools.json` and the checker pings them hourly. Still blank: Coach Lookup, Budget & Goal Builder, Dispute Engine, sales call checklist, coach scoreboard, one-on-one app, pod tools. Add them the same way: open the file on GitHub, click the pencil, paste the URL, commit.
 
 ### 3. Zoho export (15 min)
 `zoho/SETUP.md`, start to finish. When it works, `data/partners.json` updates every morning on its own.
@@ -32,7 +32,7 @@ Open `data/tools.json` on GitHub, click the pencil, paste each tool's live URL. 
 `tools/README.md`. Each Vercel project points at its folder here. After that, a commit is a deploy and nothing gets lost.
 
 ### 5. The morning run (5 min)
-`ops/MORNING_RUN.md` is the prompt. In Claude, create a recurring scheduled task (weekdays, early morning, your time) and paste the whole file in. support.claude.com has the current steps for scheduling. The first run tells us whether the scheduled environment can reach this repo; the fallback is at the bottom of the prompt.
+The key is made: fine-grained token `mcg-ops-claude`, regenerated Oct 13, 2026, expires Oct 12, 2027 (recorded in `OPERATING.md` under Keys). `ops/MORNING_RUN.md` is the prompt. In Claude, create a recurring scheduled task (weekdays, early morning, your time), paste the whole file in, and put the token on the last line where the prompt says to. support.claude.com has the current steps for scheduling. The first run tells us whether the scheduled environment can reach this repo; the fallback is at the bottom of the prompt.
 
 ## Day to day
 

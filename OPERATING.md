@@ -1,6 +1,6 @@
 # MCG operating doc
 
-Last updated: 2026-10-12 (seeded by Claude from working notes; anything marked [verify] came from notes, not a live check)
+Last updated: 2026-10-13 (seeded by Claude from working notes; anything marked [verify] came from notes, not a live check)
 Last morning run: never
 
 Status words mean exactly this:
@@ -53,6 +53,10 @@ Status words mean exactly this:
 - Podcast: episode 2 recorded Oct 2026. Episode 1 (collections) did fine but was weak on socials. Want topics with online traction.
 - Watch: ESCRA (H.R. 306) and the business-model changes under consideration.
 - Possibly stale, confirm or drop: reAlpha due diligence package and partnership framing (Aug 2026); SMS opt-in message for A2P 10DLC/TCPA; Realtor social content strategy.
+
+## Keys (the morning run warns 30 days before any of these expire)
+- GitHub fine-grained token named mcg-ops-claude on GitHub. Scope: mcg-ops only, Contents and Workflows read/write. Regenerated Oct 13, 2026. Expires 2027-10-12. Used by Claude sessions and the scheduled morning run. The value lives in the scheduled task (and wherever Sam keeps passwords), never in this repo.
+- Zoho export token: not made yet (see zoho/SETUP.md). Record its expiry here when it exists.
 
 ## People (business roles only)
 - Tricia Parker: co-founder, CFO/COO
