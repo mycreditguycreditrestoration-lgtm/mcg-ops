@@ -9,7 +9,7 @@
     {"name": "Vetted VA Credit Readiness", "url": "", "expect": "Not affiliated with the Dept. of Veterans Affairs", "vercel_project": "", "folder": "tools/credit-readiness"},
     {"name": "CreditDIY (partner build)", "url": "https://creditdiy.com", "expect": "", "vercel_project": "", "folder": "tools/creditdiy"},
     {"name": "CreditDIY (demo build)", "url": "", "expect": "DEMO", "vercel_project": "", "folder": "tools/creditdiy-demo"},
-    {"name": "LO Answer Desk", "url": "", "expect": "", "vercel_project": "", "folder": "tools/lo-answer-desk"},
+    {"name": "LO Answer Desk", "url": "https://mcg-lo-answer-desk.vercel.app/", "expect": "", "vercel_project": "mcg-lo-answer-desk", "folder": "tools/lo-answer-desk"},
     {"name": "MCG Coach Lookup", "url": "", "expect": "", "vercel_project": "", "folder": "tools/coach-lookup"},
     {"name": "Budget & Goal Builder", "url": "", "expect": "", "vercel_project": "", "folder": "tools/budget-goal-builder"},
     {"name": "Autonomous Dispute Engine", "url": "", "expect": "", "vercel_project": "", "folder": "tools/dispute-engine"},
