@@ -1,7 +1,7 @@
 # MCG operating doc
 
-Last updated: 2026-10-29 (morning run; seeded 2026-10-13 by Claude from working notes; anything marked [verify] came from notes, not a live check)
-Last morning run: 2026-10-29 (first scheduled run; the cloud environment reached the repo and pushed)
+Last updated: 2026-10-30 (morning run; seeded 2026-10-13 by Claude from working notes; anything marked [verify] came from notes, not a live check)
+Last morning run: 2026-10-30 (second scheduled run; reached the repo and pushed; no new inbox files, nothing resolved since Oct 29)
 
 Status words mean exactly this:
 - designed: a spec exists, nothing is built
@@ -44,7 +44,7 @@ Status words mean exactly this:
 - Message framing: "it has been about 45 days since we last provided value to you." MCG stays in the giving seat. Templates in ops/VOICE.md.
 - Also wanted: outreach to the LO when a client stalls and needs a nudge.
 - In Zoho today: RP health grading with monthly file-count shifting (Deluge) [verify it is still running]; a formula tracking deal recency off last-record-created date.
-- Data feed: zoho/daily_partner_export writes data/partners.json every morning. Status: not set up (confirmed by the morning run Oct 29: partners.json still carries generated_at 2026-10-12 05:00 and the two sample records).
+- Data feed: zoho/daily_partner_export writes data/partners.json every morning. Status: not set up (confirmed by the morning runs Oct 29 and Oct 30: partners.json still carries generated_at 2026-10-12 05:00 and the two sample records).
 - Reengagement drip: designed, not built. The morning run drafts the messages. Sending stays with Sam or Zoho until Sam says otherwise.
 
 ## Open threads
@@ -75,3 +75,4 @@ Status words mean exactly this:
 ## Run log
 (The morning run appends one line per run: date, partners flagged, tools down, inbox items filed.)
 - 2026-10-29: 1 partners flagged, 1 tools down, 2 inbox items filed, first run; partners.json is still the Oct 12 sample so the flag is placeholder data; creditdiy.com 403 since Oct 12; 8 tools have no URL; 13 [verify] marks are 16 days old; pod item moved to Open threads; no key within 30 days of expiry.
+- 2026-10-30: 1 partners flagged, 1 tools down, 0 inbox items filed, partners.json still the Oct 12 sample (flag is placeholder); creditdiy.com 403 since Oct 12 (18 days); 8 tools have no URL; 13 [verify] marks are 17 days old; no new inbox files; no key within 30 days of expiry.
