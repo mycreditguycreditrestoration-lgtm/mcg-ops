@@ -1,7 +1,7 @@
 # MCG operating doc
 
-Last updated: 2026-11-10 (morning run; seeded 2026-10-13 by Claude from working notes; anything marked [verify] came from notes, not a live check)
-Last morning run: 2026-11-10 (seventh scheduled run; reached the repo and pushed; no run commit on Nov 9, a Monday, so the task did not fire that day; no new inbox files, nothing resolved since Oct 30; the hourly uptime check is still running, last pass 2026-11-10T07:59Z; it writes a commit only on a status change, a daily heartbeat, or the daily down reminder, so one commit a day is normal)
+Last updated: 2026-11-13 (morning run; seeded 2026-10-13 by Claude from working notes; anything marked [verify] came from notes, not a live check)
+Last morning run: 2026-11-13 (eighth scheduled run; reached the repo and pushed; no run commits on Nov 11 or Nov 12, so the task did not fire Wed or Thu, the third and fourth missed weekdays after Nov 4 and Nov 9; no new inbox files, nothing resolved since Oct 30; the hourly uptime check is still running, last pass 2026-11-12T14:24Z; it writes a commit only on a status change, a daily heartbeat, or the daily down reminder, so one commit a day is normal)
 
 Status words mean exactly this:
 - designed: a spec exists, nothing is built
@@ -13,7 +13,7 @@ Status words mean exactly this:
 ## This week
 - creditdiy.com is down (403, confirmed Oct 13). Plan: finish the CreditDIY build, deploy fresh, repoint the domain. Needs the Build 2026-09-10.1 zips and Rev 2026-09-10.1 library uploaded to tools/creditdiy and tools/creditdiy-demo in this repo. The one file found so far (uploaded Oct 13 as CreditDIY_PARTNER.html) is an unstamped demo-generation front end, parked at tools/creditdiy-demo with a NOTE; not the partner build. (as of Mon Oct 12, 2026)
 - LO link generator page: add a visible partner contact email, deployed, URL noted here. Owner: Ashley. Must not change the link creation flow or the existing layout. The email address itself: missing. Spec: specs/lo-link-generator-contact-email.md. (source: inbox/2026-10-20-short-title.md)
-- Zoho daily partner export is still not set up: data/partners.json is the Oct 12 sample file, so the cold-partner list in the morning brief is placeholder data until zoho/SETUP.md is done (about 15 min). (morning run, Oct 29; still true Nov 10)
+- Zoho daily partner export is still not set up: data/partners.json is the Oct 12 sample file, so the cold-partner list in the morning brief is placeholder data until zoho/SETUP.md is done (about 15 min). (morning run, Oct 29; still true Nov 13)
 - Vetted VA Credit Readiness: waiting on their logo, brand colors, and sign-off. Own Vercel project, separate from plain Credit Readiness. Must carry "Not affiliated with the Dept. of Veterans Affairs or any government agency."
 - Consumer site (MCG-C3): Ashley to redeploy the merged build (front end plus the v44 /api folder: analyze, track, contract, lead) in place and copy env vars (AI key, TRACK_WEBHOOK_URL, Zoho set, contract templates) from the lender project. [verify: done or not]
 - CreditDIY: what is live on creditdiy.com is at most the July 24 generation. Stamped Build 2026-09-10.1 (partner and demo) still needs to go up. Footer stamp is the check.
@@ -44,7 +44,7 @@ Status words mean exactly this:
 - Message framing: "it has been about 45 days since we last provided value to you." MCG stays in the giving seat. Templates in ops/VOICE.md.
 - Also wanted: outreach to the LO when a client stalls and needs a nudge.
 - In Zoho today: RP health grading with monthly file-count shifting (Deluge) [verify it is still running]; a formula tracking deal recency off last-record-created date.
-- Data feed: zoho/daily_partner_export writes data/partners.json every morning. Status: not set up (confirmed by the morning runs Oct 29, Oct 30, Nov 2, Nov 3, Nov 5, Nov 6 and Nov 10: partners.json still carries generated_at 2026-10-12 05:00 and the two sample records).
+- Data feed: zoho/daily_partner_export writes data/partners.json every morning. Status: not set up (confirmed by the morning runs Oct 29, Oct 30, Nov 2, Nov 3, Nov 5, Nov 6, Nov 10 and Nov 13: partners.json still carries generated_at 2026-10-12 05:00 and the two sample records).
 - Reengagement drip: designed, not built. The morning run drafts the messages. Sending stays with Sam or Zoho until Sam says otherwise.
 
 ## Open threads
@@ -81,3 +81,4 @@ Status words mean exactly this:
 - 2026-11-05: 1 partners flagged, 1 tools down, 0 inbox items filed, partners.json still the Oct 12 sample (flag is placeholder, Jane Example 72 days); creditdiy.com 403 since Oct 12 (24 days); uptime.json fresh (10:49Z); 8 tools have no URL; 12 [verify] marks on live items are 23 days old; no morning run commit on Nov 4; no new inbox files; nothing due in the next 7 days; no key within 30 days of expiry.
 - 2026-11-06: 1 partners flagged, 1 tools down, 0 inbox items filed, partners.json still the Oct 12 sample (flag is placeholder, Jane Example 73 days); creditdiy.com 403 since Oct 12 (25 days); uptime.json fresh (09:50Z); 8 tools have no URL; 12 [verify] marks on live items are 24 days old; no new inbox files; nothing due in the next 7 days; no key within 30 days of expiry.
 - 2026-11-10: 1 partners flagged, 1 tools down, 0 inbox items filed, partners.json still the Oct 12 sample (flag is placeholder, Jane Example 77 days); creditdiy.com 403 since Oct 12 (29 days); uptime.json fresh (07:59Z); 8 tools have no URL; 12 [verify] marks on live items are 28 days old; no morning run commit on Nov 9 (Monday); no new inbox files; nothing due in the next 7 days; no key within 30 days of expiry.
+- 2026-11-13: 1 partners flagged, 1 tools down, 0 inbox items filed, partners.json still the Oct 12 sample (flag is placeholder, Jane Example 80 days; Tom Sample at 41 days, crosses 45 on Nov 17); creditdiy.com 403 since Oct 12 (32 days); uptime.json fresh (Nov 12 14:24Z, about 22 hours old at run time); 8 tools have no URL; 12 [verify] marks on live items are 31 days old; no morning run commit on Nov 11 or Nov 12 (Wed, Thu); no new inbox files; nothing due in the next 7 days; no key within 30 days of expiry.
