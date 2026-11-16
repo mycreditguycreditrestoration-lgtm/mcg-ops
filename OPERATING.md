@@ -1,7 +1,7 @@
 # MCG operating doc
 
 Last updated: 2026-11-16 (morning run; seeded 2026-10-13 by Claude from working notes; anything marked [verify] came from notes, not a live check)
-Last morning run: 2026-11-16 (ninth scheduled run; reached the repo; fired on the first weekday after the Nov 13 run, so no missed weekday this time (earlier misses: Nov 4, Nov 9, Nov 11, Nov 12); no new inbox files, nothing resolved since Oct 30; the hourly uptime check is still running, last pass 2026-11-15T19:12Z; it writes a commit only on a status change, a daily heartbeat, or the daily down reminder, so one commit a day is normal)
+Last morning run: 2026-11-16 (ninth scheduled run; reached the repo and pushed, again only with the token passed as an explicit auth header since the git proxy refuses the URL-embedded credential, same as Nov 13; fired on the first weekday after the Nov 13 run, so no missed weekday this time (earlier misses: Nov 4, Nov 9, Nov 11, Nov 12); no new inbox files, nothing resolved since Oct 30; the hourly uptime check is still running, last pass 2026-11-15T19:12Z; it writes a commit only on a status change, a daily heartbeat, or the daily down reminder, so one commit a day is normal)
 
 Status words mean exactly this:
 - designed: a spec exists, nothing is built
